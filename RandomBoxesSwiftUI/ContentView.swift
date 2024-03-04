@@ -16,9 +16,6 @@ struct ContentView: View {
             List(0..<numberOfSections, id: \.self) { section in
                 RandomBoxSection()
                     .frame(height: self.itemSize.height)
-                    .onAppear {
-                        // Handle cell appearance if needed
-                    }
             }
             .listStyle(PlainListStyle())
             .navigationTitle(Text("Рандомные боксы :)"))
