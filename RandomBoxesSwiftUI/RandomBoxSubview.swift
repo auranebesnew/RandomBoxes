@@ -10,9 +10,6 @@ import SwiftUI
 struct RandomBoxSubview: View {
     @StateObject private var viewModel = RandomBoxSubviewViewModel()
     
-    @State private var isPressing = false
-    @State private var scale: CGFloat = 1.0
-    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
