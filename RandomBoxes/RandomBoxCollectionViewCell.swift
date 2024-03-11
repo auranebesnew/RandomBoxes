@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import ReactiveSwift
 
 class RandomBoxCollectionViewCell: UICollectionViewCell {
     private var timer: Timer?
